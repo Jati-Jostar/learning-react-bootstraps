@@ -2,7 +2,7 @@
   min-height: 100vh;
   padding: 60px;
   text-align: center;
-  background-color: #eeeeee;
+  background-color: lightblue;
 }
 
 .halaman h1 {
@@ -29,4 +29,45 @@
 
 .tombol-belajar:hover {
   background-color: #163a5c;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 20px 40px;
+  background-color: #1f4e79;
+  color: white;
+}
+
+.header h1 {
+  margin: 0;
+}
+
+.header nav {
+  display: flex;
+  gap: 20px;
+}
+
+.header a {
+  color: white;
+  text-decoration: none;
+}
+
+.header a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 60px 40px;
 }

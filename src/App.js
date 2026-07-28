@@ -1,18 +1,16 @@
 import "./App.css";
+import Header from "./components/header"
 
 function App() {
   return (
-    <main className="halaman">
-      <h1>Belajar React dari Nol</h1>
-
-      <p>
-        Tulisan ini berasal dari komponen App.
-      </p>
-
-      <button className="tombol-belajar">
-        Mulai Belajar
-      </button>
-    </main>
+    <div className="halaman">
+      <Header />
+      
+      <main id="home">
+        <h2>Belajar React dari Nol</h2>
+        <p>ini isi utama website</p>
+      </main>
+    </div>
   );
 }
 

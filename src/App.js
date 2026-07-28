@@ -1,14 +1,19 @@
-import { Container, Button } from 'react-bootstrap'
-import './App.css'
+import "./App.css";
 
 function App() {
   return (
-    <Container className="py-5 text-center">
-      <h1>Project React Pertamaku</h1>
-      <p>Aku sedang belajar React dan Bootstrap.</p>
-      <Button variant="primary">Mulai Belajar</Button>
-    </Container>
-  )
+    <main className="halaman">
+      <h1>Belajar React dari Nol</h1>
+
+      <p>
+        Tulisan ini berasal dari komponen App.
+      </p>
+
+      <button className="tombol-belajar">
+        Mulai Belajar
+      </button>
+    </main>
+  );
 }
 
-export default App
+export default App;

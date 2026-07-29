@@ -1,3 +1,26 @@
+const menuNavigasi = [
+  {
+    id: 1,
+    nama: "Home",
+    tujuan: "#home"
+  },
+  {
+    id: 2,
+    nama: "About",
+    tujuan: "#about"
+  },
+  {
+    id: 3,
+    nama: "Services",
+    tujuan: "#services"
+  },
+  {
+  id: 4,
+  nama: "Contact",
+  tujuan: "#contact"
+  }
+];
+
 function Header() {
     return (
         <header className="header">
@@ -6,8 +29,13 @@ function Header() {
             </h1>
 
             <nav>
-                <a href="#home">Home</a>
-                <a href="#about">About</a>
+                {menuNavigasi.map(function(menu) {
+                    return (
+                        <a key={menu.id} href={menu.tujuan}>
+                            {menu.nama}
+                        </a>
+                    )
+                })}
             </nav>
         </header>
     )

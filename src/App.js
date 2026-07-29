@@ -1,17 +1,19 @@
 import "./App.css";
 import Header from "./components/header";
 import Hero from "./components/hero";
+import Services from "./components/Services";
 
 function App() {
   return (
     <div className="halaman">
       <Header />
-      <Hero />
-
-      <main id="home">
-        <h2>Belajar React dari Nol</h2>
-        <p>ini isi utama website</p>
-      </main>
+      <Hero 
+      judul="Belajar React dari Nol"
+      deskripsi="Ini web React Pertama ku"
+      tombol="Tekan Untuk Mulai"
+      namaPembuat="Fida Jati"
+      />
+      <Services />
     </div>
   );
 }

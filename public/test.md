@@ -2,6 +2,10 @@
 
 ## 1. Pembukaan
 
+Assalamualaikum warahmatullahi wabarakatuh.
+
+Perkenalkan, saya Fida Jati dari kelas PJJ Teknik Informatika kelas A, dengan NRP 3125510033.
+
 Pada video ini saya akan menjelaskan project web kasir sederhana yang dibuat menggunakan React untuk frontend dan Express untuk backend.
 
 Saya akan memulai dengan mendemonstrasikan fitur aplikasi. Setelah itu, saya akan menjelaskan bagaimana frontend mengambil data dari backend, mengolah data tersebut, melakukan transaksi, memperbarui stok, dan menampilkan riwayat pembelian.
